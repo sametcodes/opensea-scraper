@@ -1,0 +1,29 @@
+{
+  "name": "opensea-scraper",
+  "version": "1.0.0",
+  "description": "Opensea collection scraper based on Node (Cloudflare bypass)",
+  "main": "index.js",
+  "scripts": {
+    "collect": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sametcodes/opensea-scraper.git"
+  },
+  "keywords": [
+    "opensea",
+    "node",
+    "collection"
+  ],
+  "author": "sametcodes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sametcodes/opensea-scraper/issues"
+  },
+  "homepage": "https://github.com/sametcodes/opensea-scraper#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "puppeteer": "^13.3.1",
+    "user-agents": "^1.0.926"
+  }
+}
